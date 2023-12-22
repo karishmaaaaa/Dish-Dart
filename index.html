@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dish-Dart</title>                                                 
+</head>
+<body>
+    <header>
+        <div class="headersection">
+            <h1> 🍽️ Welcome to Dish-Dart 😋</h1>
+            <p>Explore a selection of refined meal recipes, thoughtfully curated and generously shared at no cost.</p>
+            <input type="text" id="searchbar" placeholder="Find your recipe...">
+        </div>
+    </header>
+
+    <section id="randomMeal">
+        <h2>Random Meal</h2>
+        <div id="mealcontainer"></div>
+    </section>
+
+    <section id="searchresults" class="grid-container"></section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3>Directions and Requirements for:</h3>
+            <div id="mealDetails"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
